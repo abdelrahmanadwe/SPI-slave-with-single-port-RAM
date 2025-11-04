@@ -1,0 +1,1437 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/IF
+=== Design Unit: work.RAM_if
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         62        62         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/IF --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         31 
+Toggled Node Count   =         31 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (62 of 62 bins)
+
+=================================================================================
+=== Instance: /top/dut/sva
+=== Design Unit: work.assertions
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         44        44         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/dut/sva --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         22 
+Toggled Node Count   =         22 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (44 of 44 bins)
+
+=================================================================================
+=== Instance: /top/dut
+=== Design Unit: work.RAM
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         8         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/dut
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM.v
+------------------------------------IF Branch------------------------------------
+    13                                      3003     Count coming in to IF
+    13              1                         37     
+    19              1                       2966     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    20                                      2966     Count coming in to IF
+    20              1                       2932     
+                                              34     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    21                                      2932     Count coming in to CASE
+    22              1                       1298     
+    23              1                        657     
+    24              1                        819     
+    25              1                        158     
+Branch totals: 4 hits of 4 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /top/dut --
+
+  File RAM.v
+----------------Focused Expression View-----------------
+Line       32 Item    1  ((din[9] && din[8]) && rx_valid)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      10        10         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/dut --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM.v
+    12              1                       3003     
+    14              1                         37     
+    15              1                         37     
+    16              1                         37     
+    17              1                         37     
+    22              1                       1298     
+    23              1                        657     
+    24              1                        819     
+    27              1                        158     
+    32              1                       2966     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         76        76         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/dut --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         38 
+Toggled Node Count   =         38 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (76 of 76 bins)
+
+=================================================================================
+=== Instance: /top/u1
+=== Design Unit: work.RAM_golden_model
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         7         1    87.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/u1
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_golden_model.v
+------------------------------------IF Branch------------------------------------
+    17                                      3003     Count coming in to IF
+    17              1                         37     
+    24              1                       2932     
+    43              1                         34     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    25                                      2932     Count coming in to CASE
+    27              1                       1298     
+    30              1                        657     
+    34              1                        819     
+    37              1                        158     
+                                         ***0***     All False Count
+Branch totals: 4 hits of 5 branches = 80.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11        11         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/u1 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_golden_model.v
+    16              1                       3003     
+    18              1                         37     
+    19              1                         37     
+    20              1                         37     
+    21              1                         37     
+    28              1                       1298     
+    31              1                        657     
+    35              1                        819     
+    38              1                        158     
+    39              1                        158     
+    44              1                         34     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         76        76         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/u1 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         38 
+Toggled Node Count   =         38 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (76 of 76 bins)
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         6         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_top.sv
+    8               1                          1     
+    9               1                          1     
+    10              1                       6007     
+    10              2                       6006     
+    23              1                          1     
+    24              1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          2         2         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =          1 
+Toggled Node Count   =          1 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (2 of 2 bins)
+
+=================================================================================
+=== Instance: /RAM_seq_item_pkg
+=== Design Unit: work.RAM_seq_item_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_seq_item_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_seq_item.sv
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                       3003     Count coming in to IF
+    6               2                    ***0***     
+                                            3003     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               3                    ***0***     
+    6               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                       3003     Count coming in to IF
+    6               5                    ***0***     
+                                            3003     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /RAM_seq_item_pkg --
+
+  File RAM_seq_item.sv
+----------------Focused Condition View-------------------
+Line       6 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       6 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15         5        10    33.33%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_seq_item_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_seq_item.sv
+    6               1                    ***0***     
+    6               2                    ***0***     
+    6               3                    ***0***     
+    6               4                    ***0***     
+    6               5                    ***0***     
+    6               6                       3003     
+    6               7                    ***0***     
+    6               8                    ***0***     
+    6               9                       3003     
+    6              10                    ***0***     
+    11              1                       6014     
+    14              1                       6014     
+    18              1                    ***0***     
+    23              1                    ***0***     
+    30              1                       3000     
+
+=================================================================================
+=== Instance: /RAM_write_and_read_seq_pkg
+=== Design Unit: work.RAM_write_and_read_seq_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_write_and_read_seq_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_write_and_read_seq.sv
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          1     Count coming in to IF
+    6               2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               3                    ***0***     
+    6               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          1     Count coming in to IF
+    6               5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /RAM_write_and_read_seq_pkg --
+
+  File RAM_write_and_read_seq.sv
+----------------Focused Condition View-------------------
+Line       6 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       6 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15         7         8    46.66%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_write_and_read_seq_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_write_and_read_seq.sv
+    6               1                    ***0***     
+    6               2                    ***0***     
+    6               3                    ***0***     
+    6               4                    ***0***     
+    6               5                    ***0***     
+    6               6                          1     
+    6               7                    ***0***     
+    6               8                    ***0***     
+    6               9                          1     
+    6              10                    ***0***     
+    10              1                          1     
+    14              1                          1     
+    15              1                       1000     
+    16              1                       1000     
+    31              1                       1000     
+
+=================================================================================
+=== Instance: /RAM_read_only_seq_pkg
+=== Design Unit: work.RAM_read_only_seq_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_read_only_seq_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_read_only_seq.sv
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          1     Count coming in to IF
+    6               2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               3                    ***0***     
+    6               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          1     Count coming in to IF
+    6               5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /RAM_read_only_seq_pkg --
+
+  File RAM_read_only_seq.sv
+----------------Focused Condition View-------------------
+Line       6 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       6 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15         7         8    46.66%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_read_only_seq_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_read_only_seq.sv
+    6               1                    ***0***     
+    6               2                    ***0***     
+    6               3                    ***0***     
+    6               4                    ***0***     
+    6               5                    ***0***     
+    6               6                          1     
+    6               7                    ***0***     
+    6               8                    ***0***     
+    6               9                          1     
+    6              10                    ***0***     
+    10              1                          1     
+    14              1                          1     
+    15              1                       1000     
+    16              1                       1000     
+    19              1                       1000     
+
+=================================================================================
+=== Instance: /RAM_reset_seq_pkg
+=== Design Unit: work.RAM_reset_seq_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_reset_seq_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_reset_seq.sv
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          3     Count coming in to IF
+    6               2                    ***0***     
+                                               3     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               3                    ***0***     
+    6               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          3     Count coming in to IF
+    6               5                    ***0***     
+                                               3     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /RAM_reset_seq_pkg --
+
+  File RAM_reset_seq.sv
+----------------Focused Condition View-------------------
+Line       6 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       6 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      18        10         8    55.55%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_reset_seq_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_reset_seq.sv
+    6               1                    ***0***     
+    6               2                    ***0***     
+    6               3                    ***0***     
+    6               4                    ***0***     
+    6               5                    ***0***     
+    6               6                          3     
+    6               7                    ***0***     
+    6               8                    ***0***     
+    6               9                          3     
+    6              10                    ***0***     
+    10              1                          1     
+    14              1                          3     
+    15              1                          3     
+    16              1                          3     
+    17              1                          3     
+    18              1                          3     
+    19              1                          3     
+    20              1                          3     
+
+=================================================================================
+=== Instance: /RAM_write_only_seq_pkg
+=== Design Unit: work.RAM_write_only_seq_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_write_only_seq_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_write_only_seq.sv
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          1     Count coming in to IF
+    6               2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               3                    ***0***     
+    6               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                          1     Count coming in to IF
+    6               5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    6                                    ***0***     Count coming in to IF
+    6               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /RAM_write_only_seq_pkg --
+
+  File RAM_write_only_seq.sv
+----------------Focused Condition View-------------------
+Line       6 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       6 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15         7         8    46.66%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_write_only_seq_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_write_only_seq.sv
+    6               1                    ***0***     
+    6               2                    ***0***     
+    6               3                    ***0***     
+    6               4                    ***0***     
+    6               5                    ***0***     
+    6               6                          1     
+    6               7                    ***0***     
+    6               8                    ***0***     
+    6               9                          1     
+    6              10                    ***0***     
+    10              1                          1     
+    14              1                          1     
+    15              1                       1000     
+    16              1                       1000     
+    18              1                       1000     
+
+=================================================================================
+=== Instance: /RAM_coverage_collector_pkg
+=== Design Unit: work.RAM_coverage_collector_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_coverage_collector_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_coverage_collector.sv
+------------------------------------IF Branch------------------------------------
+    50                                      3003     Count coming in to IF
+    50              1                    ***0***     
+                                            3003     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        12         3    80.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_coverage_collector_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_coverage_collector.sv
+    6               1                    ***0***     
+    6               2                    ***0***     
+    6               3                          2     
+    30              1                          1     
+    31              1                          1     
+    35              1                          1     
+    36              1                          1     
+    37              1                          1     
+    41              1                          1     
+    42              1                          1     
+    46              1                          1     
+    47              1                          1     
+    48              1                       3004     
+    49              1                       3003     
+    50              1                    ***0***     
+
+=================================================================================
+=== Instance: /RAM_scoreboard_pkg
+=== Design Unit: work.RAM_scoreboard_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         3         7    30.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_scoreboard_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_scoreboard.sv
+------------------------------------IF Branch------------------------------------
+    37                                      3003     Count coming in to IF
+    37              1                    ***0***     
+    42              1                       3003     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                   ***0***     Count coming in to IF
+    38              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    40                                   ***0***     Count coming in to IF
+    40              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    50                                         1     Count coming in to IF
+    50              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    51                                         1     Count coming in to IF
+    51              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /RAM_scoreboard_pkg --
+
+  File RAM_scoreboard.sv
+----------------Focused Condition View-------------------
+Line       37 Item    1  ((this.s_item.dout != this.s_item.ex_dout) && (this.s_item.tx_valid != this.s_item.ex_tx_valid))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+                                         Input Term   Covered  Reason for no coverage   Hint
+                                        -----------  --------  -----------------------  --------------
+          (this.s_item.dout != this.s_item.ex_dout)         N  '_1' not hit             Hit '_1'
+  (this.s_item.tx_valid != this.s_item.ex_tx_valid)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                                           Non-masking condition(s)      
+ ---------  ---------  --------------------                                 -------------------------     
+  Row   1:          1  (this.s_item.dout != this.s_item.ex_dout)_0          -                             
+  Row   2:    ***0***  (this.s_item.dout != this.s_item.ex_dout)_1          (this.s_item.tx_valid != this.s_item.ex_tx_valid)
+  Row   3:    ***0***  (this.s_item.tx_valid != this.s_item.ex_tx_valid)_0  (this.s_item.dout != this.s_item.ex_dout)
+  Row   4:    ***0***  (this.s_item.tx_valid != this.s_item.ex_tx_valid)_1  (this.s_item.dout != this.s_item.ex_dout)
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      21        16         5    76.19%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_scoreboard_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_scoreboard.sv
+    9               1                    ***0***     
+    9               2                    ***0***     
+    9               3                          2     
+    16              1                          1     
+    16              2                          1     
+    19              1                          1     
+    23              1                          1     
+    24              1                          1     
+    25              1                          1     
+    29              1                          1     
+    30              1                          1     
+    34              1                          1     
+    35              1                          1     
+    36              1                       3004     
+    38              1                    ***0***     
+    39              1                    ***0***     
+    40              1                    ***0***     
+    43              1                       3003     
+    49              1                          1     
+    50              1                          1     
+    51              1                          1     
+
+=================================================================================
+=== Instance: /RAM_configer_pkg
+=== Design Unit: work.RAM_configer_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         0        10     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_configer_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_configer.sv
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               3                    ***0***     
+    5               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /RAM_configer_pkg --
+
+  File RAM_configer.sv
+----------------Focused Condition View-------------------
+Line       5 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       5 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         1        10     9.09%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_configer_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_configer.sv
+    5               1                    ***0***     
+    5               2                    ***0***     
+    5               3                    ***0***     
+    5               4                    ***0***     
+    5               5                    ***0***     
+    5               6                    ***0***     
+    5               7                    ***0***     
+    5               8                    ***0***     
+    5               9                    ***0***     
+    5              10                    ***0***     
+    10              1                          1     
+
+=================================================================================
+=== Instance: /RAM_seqr_pkg
+=== Design Unit: work.RAM_seqr_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         2         2    50.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_seqr_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_seqr.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    10              1                          1     
+
+=================================================================================
+=== Instance: /RAM_monitor_pkg
+=== Design Unit: work.RAM_monitor_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_monitor_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_monitor.sv
+------------------------------------IF Branch------------------------------------
+    34                                      3003     Count coming in to IF
+    34              1                    ***0***     
+                                            3003     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      19        16         3    84.21%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_monitor_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_monitor.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    13              1                          1     
+    17              1                          1     
+    18              1                          1     
+    22              1                          1     
+    23              1                          1     
+    24              1                       3004     
+    25              1                       3004     
+    26              1                       3003     
+    27              1                       3003     
+    28              1                       3003     
+    29              1                       3003     
+    30              1                       3003     
+    31              1                       3003     
+    32              1                       3003     
+    33              1                       3003     
+    34              1                    ***0***     
+
+=================================================================================
+=== Instance: /RAM_driver_pkg
+=== Design Unit: work.RAM_driver_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      13        11         2    84.61%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_driver_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_driver.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    12              1                          1     
+    16              1                          1     
+    17              1                          1     
+    18              1                       3004     
+    20              1                       3004     
+    21              1                       3003     
+    22              1                       3003     
+    23              1                       3003     
+    25              1                       3003     
+    27              1                       3003     
+
+=================================================================================
+=== Instance: /RAM_agent_pkg
+=== Design Unit: work.RAM_agent_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         3         5    37.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_agent_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_agent.sv
+------------------------------------IF Branch------------------------------------
+    23                                         1     Count coming in to IF
+    23              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    24                                   ***0***     Count coming in to IF
+    24              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    26                                         1     Count coming in to IF
+    26              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    37                                         1     Count coming in to IF
+    37              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        12         3    80.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_agent_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_agent.sv
+    10              1                    ***0***     
+    10              2                    ***0***     
+    10              3                          2     
+    18              1                          1     
+    22              1                          1     
+    24              1                    ***0***     
+    27              1                          1     
+    28              1                          1     
+    31              1                          1     
+    32              1                          1     
+    36              1                          1     
+    38              1                          1     
+    39              1                          1     
+    41              1                          1     
+    42              1                          1     
+
+=================================================================================
+=== Instance: /RAM_environment_pkg
+=== Design Unit: work.RAM_environment_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         9         2    81.81%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_environment_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_environment.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    13              1                          1     
+    17              1                          1     
+    18              1                          1     
+    19              1                          1     
+    20              1                          1     
+    24              1                          1     
+    25              1                          1     
+    26              1                          1     
+
+=================================================================================
+=== Instance: /RAM_test_pkg
+=== Design Unit: work.RAM_test_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        28        13        15    46.42%
+
+================================Branch Details================================
+
+Branch Coverage for instance /RAM_test_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_test.sv
+------------------------------------IF Branch------------------------------------
+    34                                         1     Count coming in to IF
+    34              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    35                                   ***0***     Count coming in to IF
+    35              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    43                                         1     Count coming in to IF
+    43              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                         1     Count coming in to IF
+    45              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    47                                         1     Count coming in to IF
+    47              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    49                                         1     Count coming in to IF
+    49              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    51                                         1     Count coming in to IF
+    51              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    53                                         1     Count coming in to IF
+    53              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    55                                         1     Count coming in to IF
+    55              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    57                                         1     Count coming in to IF
+    57              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    59                                         1     Count coming in to IF
+    59              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    61                                         1     Count coming in to IF
+    61              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    63                                         1     Count coming in to IF
+    63              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    65                                         1     Count coming in to IF
+    65              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      35        32         3    91.42%
+
+================================Statement Details================================
+
+Statement Coverage for instance /RAM_test_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File RAM_test.sv
+    12              1                    ***0***     
+    12              2                    ***0***     
+    12              3                          3     
+    22              1                          1     
+    26              1                          1     
+    27              1                          1     
+    28              1                          1     
+    29              1                          1     
+    30              1                          1     
+    31              1                          1     
+    32              1                          1     
+    35              1                    ***0***     
+    36              1                          1     
+    37              1                          1     
+    41              1                          1     
+    42              1                          1     
+    43              1                          1     
+    44              1                          1     
+    45              1                          1     
+    47              1                          1     
+    48              1                          1     
+    49              1                          1     
+    51              1                          1     
+    52              1                          1     
+    53              1                          1     
+    55              1                          1     
+    56              1                          1     
+    57              1                          1     
+    59              1                          1     
+    60              1                          1     
+    61              1                          1     
+    63              1                          1     
+    64              1                          1     
+    65              1                          1     
+    67              1                          1     
+
+
+Total Coverage By Instance (filtered view): 61.27%
+
