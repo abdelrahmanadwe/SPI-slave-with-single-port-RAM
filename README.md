@@ -16,6 +16,7 @@ The verification process is divided into three strategic phases:
 
 - [Team Members](#-team-members)
 - [Project Architecture](#%EF%B8%8F-project-architecture)
+    - [Architectural Description](#architectural-description-)
 - [Detailed Component Analysis](#%EF%B8%8F-detailed-component-analysis)
     - [Part 1: SPI Slave](#part-1-spi-slave-components)
     - [Part 2: Single Port RAM](#part-2-ram-components)
@@ -61,6 +62,7 @@ The verification environment follows a **Flat Integration UVM Architecture** as 
     - **Configurations (Set/Get):** The `uvm_test` configures the agents' modes. It sets `is_active = UVM_ACTIVE` for the Wrapper Agent and `UVM_PASSIVE` for the Slave and RAM Agents.
         
 3. **Scoreboards & Coverage:** Each environment retains its own **Scoreboard** and **Coverage Collector**. This allows for precise error localization (knowing exactly which block failed) and ensures 100% coverage is maintained from block-level verification.
+   
 ## 🏗️ Detailed Component Analysis
 
 This section breaks down the project into its three constituent sub-projects.
