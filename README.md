@@ -42,7 +42,7 @@ The verification process is divided into three strategic phases:
 
 The verification environment follows a **Flat Integration UVM Architecture** as shown in the diagram below. This structure maximizes reuse and decoupling between blocks.
 
-[UVM Architecture](https://github.com/abdelrahmanadwe/SPI-slave-with-single-port-RAM/blob/main/Docs/UVM_Architecture)
+[UVM Architecture](https://github.com/abdelrahmanadwe/SPI-slave-with-single-port-RAM/blob/main/Docs/UVM_Architecture.png)
 
 ### Architectural Description :
 
