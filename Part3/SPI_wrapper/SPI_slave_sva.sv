@@ -54,8 +54,4 @@ module SPI_slave_sva (SPI_slave_if.DUT SPI_slaveif);
     assert property (valid_command_rd_data);
     cover property (valid_command_rd_data);
 
-
-
-
-
 endmodule
