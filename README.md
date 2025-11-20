@@ -15,8 +15,8 @@ The verification process is divided into three strategic phases:
 ## 📖 Table of Contents
 
 - [Team Members](#-team-members)
-- [Project Architecture](#-project-architecture)
-- [Detailed Component Analysis](#-detailed-component-analysis)
+- [Project Architecture](#%EF%B8%8F-project-architecture)
+- [Detailed Component Analysis](#%EF%B8%8F-detailed-component-analysis)
     - [Part 1: SPI Slave](#part-1-spi-slave-components)
     - [Part 2: Single Port RAM](#part-2-ram-components)
     - [Part 3: Wrapper Integration](#part-3-wrapper-integration)
