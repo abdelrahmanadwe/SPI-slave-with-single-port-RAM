@@ -64,10 +64,6 @@ package SPI_slave_test_pkg;
       main_rd_sq.start(slave_env.agt.sqr);
       `uvm_info("run_phase","stimulus generation read sequence ended",UVM_LOW)
       
-      `uvm_info("run_phase","reset asserted",UVM_LOW)
-      reset_sq.start(slave_env.agt.sqr);
-      `uvm_info("run_phase","reset deasserted",UVM_LOW)
-
       `uvm_info("run_phase","stimulus generation read write squence started",UVM_LOW)
       main_rd_wr_seq.start(slave_env.agt.sqr);
       `uvm_info("run_phase","stimulus generation read write sequence ended",UVM_LOW)
